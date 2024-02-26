@@ -1,0 +1,106 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header span {
+    color: #f00;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main styles */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .intro {
+    background-image: url("hero-image.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  .intro h1 {
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 2rem;
+  }
+  
+  section h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .subscription {
+    border: 2px solid #fff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .subscription a {
+    display: block;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
